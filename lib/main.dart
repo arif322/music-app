@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:music_app_ui/pages/home.dart';
 import 'package:music_app_ui/pages/playing/playingwidget.dart';
-import 'package:music_app_ui/pages/playing/playmusic.dart';
+import 'package:music_app_ui/pages/playing/profile/details.dart';
 import 'package:music_app_ui/pages/playlist/playlist.dart';
 
 void main() {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         Homescreen.path: (context) => Homescreen(),
         Homepage.path: (context) => Homepage(),
         PlayListPage.path: (context) => PlayListPage(),
-        MusicPlay.path: (context) => MusicPlay(),
+        DetailsPage.path: (context) => DetailsPage(),
       },
     );
   }

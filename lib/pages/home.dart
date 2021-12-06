@@ -12,7 +12,7 @@ class _HomepageState extends State<Homepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white70,
+      backgroundColor: Colors.white38,
       body: SingleChildScrollView(
         child: SafeArea(
           child: Container(

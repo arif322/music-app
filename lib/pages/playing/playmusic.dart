@@ -13,6 +13,7 @@ class _MusicPlayState extends State<MusicPlay> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white38,
       body: SafeArea(
         child: SingleChildScrollView(
           child: Container(
